@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "back end for tab-tracker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint":"./node_modules/.bin/eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rabimatuag/tab-tracker.git"
+  },
+  "author": "Rabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rabimatuag/tab-tracker/issues"
+  },
+  "homepage": "https://github.com/rabimatuag/tab-tracker#readme",
+  "dependencies": {
+    "eslint": "^5.16.0"
+  }
+}
