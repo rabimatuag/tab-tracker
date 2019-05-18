@@ -6,9 +6,9 @@ const app = express();
 app.use(morgan('combined'));
 app.use(bodyParser.json());
 app.use(cors()); // allow any host to access
-app.get('/',(req,res)=>{
+app.post('/register',(req,res)=>{
     res.send({
-        message:"hello world"
+        message:`hello ${req.body.email} you are registered`
     });
 });
 
